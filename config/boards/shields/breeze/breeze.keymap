@@ -19,16 +19,16 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 // |  =  | HOME | END  | |   `   |  1  |  2  |  3    |  4   |  5   |                    |  6   |  7    |  8    |  9   |   0   | -/_  |
-// | ESC | [    |  ]   | |  TAB  |  Q  |  W  |  E    |  R   |  T   |                    |  Y   |  U    |  I    |  O   |   P   |  BCPC|
+// | ESC | [    |  ]   | |  ALT/TAB  |  Q  |  W  |  E    |  R   |  T   |                |  Y   |  U    |  I    |  O   |   P   |  BCPC|
 // |     |  UP  |      | |  CTRL |  A  |  S  |  D    |  F   |  G   |                    |  H   |  J    |  K    |  L   |   ;   |  '   |
 // |  L  |  DN  |  R   | |  SHFT |  Z  |  X  |  C    |  V   |  B   |                    |  N   |  M    |  ,    |  .   |   /   |  ENTER |
-//                       | CAPS  | GUI | ALT | LOWER/SPACE |                            | RAISE/SPACE  | BKSP  | DEL   | RAISE/ENTER |
+//                       | CAPS  | LSHIFT | SPACE | LOWER/LWIN |                            | RAISE/SPACE  | BKSP  | DEL   | RAISE/ENTER |
 			bindings = <
 &kp EQUAL &kp HOME &kp END        &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5        &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
-&kp ESC &kp LBKT &kp RBKT        &kp TAB &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &kp O &kp P &kp BSPC
+&kp ESC &kp LBKT &kp RBKT        &mt alt TAB &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &kp O &kp P &kp BSPC
         &kp UP                   &kp LCTRL &kp A &kp S &kp D &kp F &kp G        &kp H &kp J &kp K &kp L &kp SEMI &kp APOS
 &kp LEFT  &kp DOWN  &kp RIGHT        &kp LSHFT &kp Z &kp X &kp C &kp V &kp B        &kp N &kp M &kp COMMA &kp DOT &kp FSLH &mt RSHFT RET
-        &kp CAPS &kp LGUI &kp LALT &lt 1 SPACE                                      &lt 2 SPACE &kp BSPC &kp DEL &lt 3 RET
+                                    &kp CAPS &kp LSHIFT &kp SPACE &lt 1 LWIN      &lt 2 SPACE &kp BSPC &kp DEL &lt 3 RET
 			>;
 		};
 

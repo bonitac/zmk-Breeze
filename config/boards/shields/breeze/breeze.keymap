@@ -22,13 +22,13 @@
 // | ESC | [    |  ]   | |  ALT/TAB  |  Q  |  W  |  E    |  R   |  T   |                |  Y   |  U    |  I    |  O   |   P   |  BSPC|
 // |     |  UP  |      | |  CTRL |  A  |  S  |  D    |  F   |  G   |                    |  H   |  J    |  K    |  L   |   ;   |  '   |
 // |  L  |  DN  |  R   | |  SHFT |  Z  |  X  |  C    |  V   |  B   |                    |  N   |  M    |  ,    |  .   |   /   |  SHIFT/ENTER |
-//                       | CAPS  | LSHIFT | SPACE | LOWER/LWIN |                            | RAISE/RET  | SPACE  | DEL   | BSPC |
+//                       | CAPS  | LSHIFT | SPACE | LOWER/LWIN |                            | RAISE/RET  | BSPC  | DEL   | BSPC |
 			bindings = <
 &kp EQUAL &kp HOME &kp END        &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5        &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
 &kp ESC &kp LBKT &kp RBKT        &mt LALT TAB &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &kp O &kp P &kp BSPC
         &kp UP                   &mt LCTRL RET &kp A &kp S &kp D &kp F &kp G        &kp H &kp J &kp K &kp L &kp SEMI &kp APOS
 &kp LEFT  &kp DOWN  &kp RIGHT        &kp LSHFT &kp Z &kp X &kp C &kp V &kp B        &kp N &kp M &kp COMMA &kp DOT &kp FSLH &mt RSHFT RET
-                                    &kp CAPS &kp LSHIFT &kp SPACE &lt 1 LWIN      &lt 2 F5 &kp SPACE &kp DEL &kp BSPC
+                                    &kp CAPS &kp LSHIFT &kp SPACE &lt 1 LWIN      &lt 2 F5 &kp BSPC &kp DEL &kp BSPC
 			>;
 		};
 
